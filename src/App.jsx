@@ -7,6 +7,7 @@ function App() {
   return (
     <div className=" flex flex-col items-center justify-center bg-slate-500">
       <h1 className="text-center text-6xl text-bold p-6 text-white">IronContacts</h1>
+      <button className="rounded-full bg-blue-400 px-4 py-2 mb-6 shadow-md text-white text-bold hover:scale-110">Add Random Contact</button>
       <table >
         <thead className="bg-blue-300" >
         <tr>
